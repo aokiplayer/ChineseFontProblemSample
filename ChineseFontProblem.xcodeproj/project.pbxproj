@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD40AAC31D212D7100E40788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD40AAC21D212D7100E40788 /* AppDelegate.swift */; };
+		CD40AAC51D212D7100E40788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD40AAC41D212D7100E40788 /* ViewController.swift */; };
+		CD40AAC81D212D7100E40788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD40AAC61D212D7100E40788 /* Main.storyboard */; };
+		CD40AACA1D212D7100E40788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD40AAC91D212D7100E40788 /* Assets.xcassets */; };
+		CD40AACD1D212D7100E40788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD40AACB1D212D7100E40788 /* LaunchScreen.storyboard */; };
+		CD40AAD51D21319300E40788 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD40AAD41D21319300E40788 /* ViewController2.swift */; };
+		CD40AAD71D21322700E40788 /* labelText.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD40AAD61D21322700E40788 /* labelText.txt */; };
+		CD40AAD91D21323D00E40788 /* textViewText.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD40AAD81D21323D00E40788 /* textViewText.txt */; };
+		CD40AADB1D21324C00E40788 /* buttonText.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD40AADA1D21324C00E40788 /* buttonText.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD40AABF1D212D7100E40788 /* ChineseFontProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChineseFontProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD40AAC21D212D7100E40788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD40AAC41D212D7100E40788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD40AAC71D212D7100E40788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD40AAC91D212D7100E40788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD40AACC1D212D7100E40788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD40AACE1D212D7100E40788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD40AAD41D21319300E40788 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		CD40AAD61D21322700E40788 /* labelText.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labelText.txt; sourceTree = "<group>"; };
+		CD40AAD81D21323D00E40788 /* textViewText.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = textViewText.txt; sourceTree = "<group>"; };
+		CD40AADA1D21324C00E40788 /* buttonText.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = buttonText.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD40AABC1D212D7100E40788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD40AAB61D212D7100E40788 = {
+			isa = PBXGroup;
+			children = (
+				CD40AAC11D212D7100E40788 /* ChineseFontProblem */,
+				CD40AAC01D212D7100E40788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD40AAC01D212D7100E40788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD40AABF1D212D7100E40788 /* ChineseFontProblem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD40AAC11D212D7100E40788 /* ChineseFontProblem */ = {
+			isa = PBXGroup;
+			children = (
+				CD40AAC21D212D7100E40788 /* AppDelegate.swift */,
+				CD40AAC41D212D7100E40788 /* ViewController.swift */,
+				CD40AAD41D21319300E40788 /* ViewController2.swift */,
+				CD40AAC61D212D7100E40788 /* Main.storyboard */,
+				CD40AAC91D212D7100E40788 /* Assets.xcassets */,
+				CD40AACB1D212D7100E40788 /* LaunchScreen.storyboard */,
+				CD40AACE1D212D7100E40788 /* Info.plist */,
+				CD40AADC1D21325400E40788 /* TextFiles */,
+			);
+			path = ChineseFontProblem;
+			sourceTree = "<group>";
+		};
+		CD40AADC1D21325400E40788 /* TextFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CD40AAD61D21322700E40788 /* labelText.txt */,
+				CD40AAD81D21323D00E40788 /* textViewText.txt */,
+				CD40AADA1D21324C00E40788 /* buttonText.txt */,
+			);
+			name = TextFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD40AABE1D212D7100E40788 /* ChineseFontProblem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD40AAD11D212D7100E40788 /* Build configuration list for PBXNativeTarget "ChineseFontProblem" */;
+			buildPhases = (
+				CD40AABB1D212D7100E40788 /* Sources */,
+				CD40AABC1D212D7100E40788 /* Frameworks */,
+				CD40AABD1D212D7100E40788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChineseFontProblem;
+			productName = ChineseFontProblem;
+			productReference = CD40AABF1D212D7100E40788 /* ChineseFontProblem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD40AAB71D212D7100E40788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MyCompany;
+				TargetAttributes = {
+					CD40AABE1D212D7100E40788 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CD40AABA1D212D7100E40788 /* Build configuration list for PBXProject "ChineseFontProblem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD40AAB61D212D7100E40788;
+			productRefGroup = CD40AAC01D212D7100E40788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD40AABE1D212D7100E40788 /* ChineseFontProblem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD40AABD1D212D7100E40788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD40AAD71D21322700E40788 /* labelText.txt in Resources */,
+				CD40AAD91D21323D00E40788 /* textViewText.txt in Resources */,
+				CD40AACD1D212D7100E40788 /* LaunchScreen.storyboard in Resources */,
+				CD40AACA1D212D7100E40788 /* Assets.xcassets in Resources */,
+				CD40AAC81D212D7100E40788 /* Main.storyboard in Resources */,
+				CD40AADB1D21324C00E40788 /* buttonText.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD40AABB1D212D7100E40788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD40AAC51D212D7100E40788 /* ViewController.swift in Sources */,
+				CD40AAC31D212D7100E40788 /* AppDelegate.swift in Sources */,
+				CD40AAD51D21319300E40788 /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD40AAC61D212D7100E40788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD40AAC71D212D7100E40788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD40AACB1D212D7100E40788 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD40AACC1D212D7100E40788 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD40AACF1D212D7100E40788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD40AAD01D212D7100E40788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD40AAD21D212D7100E40788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChineseFontProblem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = advanced.example.ChineseFontProblem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD40AAD31D212D7100E40788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChineseFontProblem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = advanced.example.ChineseFontProblem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD40AABA1D212D7100E40788 /* Build configuration list for PBXProject "ChineseFontProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD40AACF1D212D7100E40788 /* Debug */,
+				CD40AAD01D212D7100E40788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD40AAD11D212D7100E40788 /* Build configuration list for PBXNativeTarget "ChineseFontProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD40AAD21D212D7100E40788 /* Debug */,
+				CD40AAD31D212D7100E40788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD40AAB71D212D7100E40788 /* Project object */;
+}

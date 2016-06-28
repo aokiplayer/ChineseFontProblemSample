@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mS4-rv-0re">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--中華フォント-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChineseFontProblem" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bFB-pV-X0K">
+                                <rect key="frame" x="50" y="200" width="500" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正直者の海産物" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FNb-Ib-ra3">
+                                        <rect key="frame" x="0.0" y="0.0" width="500" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HWs-ib-07B">
+                                        <rect key="frame" x="0.0" y="29" width="500" height="133"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">今は昔。
+あるところに正直な海の幸が集う設計事務所がありました。</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0k-d9-Wzk">
+                                        <rect key="frame" x="0.0" y="170" width="500" height="30"/>
+                                        <state key="normal" title="海を正直者で満たす"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="LOP-xd-vwQ"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bFB-pV-X0K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="YZL-nr-BGB"/>
+                            <constraint firstItem="bFB-pV-X0K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="et9-28-7ts"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bFB-pV-X0K" secondAttribute="trailing" constant="30" id="lVy-Ld-84i"/>
+                            <constraint firstItem="bFB-pV-X0K" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mTG-Lg-BJe"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="中華フォント" id="3Eo-4a-OvN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-121" y="857"/>
+        </scene>
+        <!--日本語フォント-->
+        <scene sceneID="Ova-eA-ZvP">
+            <objects>
+                <viewController id="6CL-cY-147" customClass="ViewController2" customModule="ChineseFontProblem" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EDf-bc-x1e"/>
+                        <viewControllerLayoutGuide type="bottom" id="A2V-rS-Gvi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="669-xD-v0a">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="NSu-3X-Th8">
+                                <rect key="frame" x="50" y="200" width="500" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ダミー" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mml-80-qDK">
+                                        <rect key="frame" x="0.0" y="0.0" width="500" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="ダミー" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qkM-1a-wcT">
+                                        <rect key="frame" x="0.0" y="29" width="500" height="133"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n93-75-7sD">
+                                        <rect key="frame" x="0.0" y="170" width="500" height="30"/>
+                                        <state key="normal" title="ダミー"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="kYP-cH-LsI"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="NSu-3X-Th8" secondAttribute="trailing" constant="30" id="1B8-Dg-dAx"/>
+                            <constraint firstItem="NSu-3X-Th8" firstAttribute="centerX" secondItem="669-xD-v0a" secondAttribute="centerX" id="aei-ss-tMf"/>
+                            <constraint firstItem="NSu-3X-Th8" firstAttribute="centerY" secondItem="669-xD-v0a" secondAttribute="centerY" id="hji-Yc-WzU"/>
+                            <constraint firstItem="NSu-3X-Th8" firstAttribute="leading" secondItem="669-xD-v0a" secondAttribute="leadingMargin" constant="30" id="xCu-rd-4kq"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="日本語フォント" id="vZR-7q-4Ea"/>
+                    <connections>
+                        <outlet property="button" destination="n93-75-7sD" id="MBq-sg-Tyg"/>
+                        <outlet property="label" destination="mml-80-qDK" id="HlL-Ar-du1"/>
+                        <outlet property="textView" destination="qkM-1a-wcT" id="p37-0n-Ity"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="soh-s9-VYE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="572" y="857"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="egG-Pz-YJb">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="mS4-rv-0re" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="C3C-GV-Qzf">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="A3N-SC-8gQ"/>
+                        <segue destination="6CL-cY-147" kind="relationship" relationship="viewControllers" id="vHm-Bv-Cab"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4IV-Cm-rbH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="224" y="55"/>
+        </scene>
+    </scenes>
+</document>
